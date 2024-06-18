@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background: #000;
+}
+
+.carrossel{
+    border-radius: 3%;
+    filter: drop-shadow(0px 0px 80px #4904a3);
+    overflow: hidden;
+    width: 72rem;
+    height: 700px;
+}
+
+.container{
+    display:flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+}
+
+img{
+    margin-top: auto; 
+    width: 72rem;
+    height: 700px;
+}
+
